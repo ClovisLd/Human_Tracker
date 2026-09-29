@@ -13431,7 +13431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 450.342 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -13794,7 +13794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 436.372 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -14364,7 +14364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 196.342 278.13 90)
 			(hide yes)
 			(show_name no)
@@ -14756,7 +14756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 174.752 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -15420,7 +15420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 337.312 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -15737,7 +15737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 402.2852 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16005,7 +16005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 390.8552 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16180,7 +16180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C29277_C0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 265.1252 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -16351,7 +16351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 135.382 313.69 90)
 			(hide yes)
 			(show_name no)
@@ -16680,7 +16680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C17534_R0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 162.56 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -16784,7 +16784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 266.3952 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17020,7 +17020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C1791_C0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 194.31 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -17514,7 +17514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 89.662 297.18 90)
 			(hide yes)
 			(show_name no)
@@ -18052,7 +18052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 123.952 317.5 90)
 			(hide yes)
 			(show_name no)
@@ -18288,7 +18288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C49678_C0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 275.2852 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -18494,7 +18494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 103.8352 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18732,7 +18732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 150.622 290.83 90)
 			(hide yes)
 			(show_name no)
@@ -19077,7 +19077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C17561_R0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 266.7 221.488 90)
 			(hide yes)
 			(show_name no)
@@ -19640,7 +19640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C26023_R0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 143.002 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -20045,7 +20045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C26023_R0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 98.552 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -20216,7 +20216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 231.902 278.13 90)
 			(hide yes)
 			(show_name no)
@@ -20826,7 +20826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 97.282 303.53 90)
 			(hide yes)
 			(show_name no)
@@ -21527,7 +21527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 93.472 283.21 90)
 			(hide yes)
 			(show_name no)
@@ -22020,7 +22020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C124129_C0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 142.24 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -22122,7 +22122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C17561_R0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 256.54 224.028 90)
 			(hide yes)
 			(show_name no)
@@ -22215,7 +22215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C2933366_R0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 147.32 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -22319,7 +22319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 279.0952 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -22760,7 +22760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 82.042 294.64 90)
 			(hide yes)
 			(show_name no)
@@ -22994,7 +22994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 89.662 307.34 90)
 			(hide yes)
 			(show_name no)
@@ -23684,7 +23684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 354.838 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -23845,7 +23845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "lcsc_footprints:C1712_C0805"
 			(at 195.2752 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -24910,7 +24910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C25611_R0805"
+		(property "Footprint" "lcsc_footprints:C17414_R0805"
 			(at 308.102 267.97 90)
 			(hide yes)
 			(show_name no)
