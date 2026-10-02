@@ -4136,6 +4136,239 @@
 			)
 		)
 	)
+	(footprint "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+		(layer "F.Cu")
+		(uuid "44a16d21-2247-4c5a-812c-96d151614bbe")
+		(at 86 118.5 90)
+		(descr "Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44)")
+		(tags "Bosch LGA NoLead")
+		(property "Reference" "U5"
+			(at 0 -2.45 90)
+			(layer "F.SilkS")
+			(uuid "7778ae6b-3a5a-47ea-80de-8be891866ac5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BME680"
+			(at 0 2.45 90)
+			(layer "F.Fab")
+			(uuid "4f212a4a-7ecb-4bb8-a4ad-95d313c69c0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca6b73d0-faa0-4fa1-9d88-27759598ba56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e839e0c-174e-46d6-b3ac-56dc0b7733e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9a9fb12f-06b0-4ce5-ab16-bb5a962f8e4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*LGA*3x3mm*P0.8mm*Clockwise*")
+		(path "/ea4e71d6-ece8-4370-ba29-335e9462d258")
+		(sheetname "/")
+		(sheetfile "Human_Tracker.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "1" "8" "7" "5" "4" "3" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.71 -1.61)
+			(end 1.71 1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9de0e3d9-3470-4419-993e-abd74dc6f399")
+		)
+		(fp_line
+			(start -1.71 1.61)
+			(end -1.71 -1.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "41800a23-abe6-45b5-98e5-ccb1cbf5faba")
+		)
+		(fp_poly
+			(pts
+				(xy -1.21 -1.72) (xy -1.45 -2.05) (xy -0.97 -2.05)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "b592fbcf-c36f-4016-b4dd-ea3bb3fd0bf2")
+		)
+		(fp_rect
+			(start -1.75 -1.75)
+			(end 1.75 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "30684115-6a5d-43bd-a61f-3a9011657393")
+		)
+		(fp_poly
+			(pts
+				(xy -0.75 -1.5) (xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5) (xy -1.5 -0.75)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "00231e84-b2a4-4dc5-a8c1-e39243168ffc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "097925ce-ce45-43d8-a792-1a6914f5c4ff")
+			(effects
+				(font
+					(size 0.75 0.75)
+					(thickness 0.11)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.2 -1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_1")
+			(pintype "power_in")
+			(uuid "b6da2f71-8313-4253-a2e4-2bee2b7aa34b")
+		)
+		(pad "2" smd roundrect
+			(at -0.4 -1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+3.3V")
+			(pinfunction "CSB_2")
+			(pintype "input")
+			(uuid "26b70701-13dc-4ed7-8248-6c18db3f430b")
+		)
+		(pad "3" smd roundrect
+			(at 0.4 -1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/SDA")
+			(pinfunction "SDI_3")
+			(pintype "bidirectional")
+			(uuid "260908ce-e3de-4454-ac64-8f012ee2b1a1")
+		)
+		(pad "4" smd roundrect
+			(at 1.2 -1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/SCL")
+			(pinfunction "SCK_4")
+			(pintype "input")
+			(uuid "7be9f4ec-a678-4a08-b5ea-ccef5b1f89e0")
+		)
+		(pad "5" smd roundrect
+			(at 1.2 1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "SDO_5")
+			(pintype "bidirectional")
+			(uuid "202459fb-6a93-4c9c-b652-9e83c495dc5e")
+		)
+		(pad "6" smd roundrect
+			(at 0.4 1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+3.3V")
+			(pinfunction "VDDIO_6")
+			(pintype "power_in")
+			(uuid "159e60df-801f-41cf-a105-1b1ebde2fee0")
+		)
+		(pad "7" smd roundrect
+			(at -0.4 1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_7")
+			(pintype "power_in")
+			(uuid "529ce0fb-1aa7-49a1-9f6e-70e3d12f8762")
+		)
+		(pad "8" smd roundrect
+			(at -1.2 1.1875 90)
+			(size 0.5 0.525)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+3.3V")
+			(pinfunction "VDD_8")
+			(pintype "power_in")
+			(uuid "1449ccc4-28b8-4772-801e-32b238abac44")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "lcsc_footprints:C168078_IND-SMD_L6_0-W6_0_FNR60XXS"
 		(layer "F.Cu")
 		(uuid "44f4e3ed-9848-4155-860c-4715d2c812dc")
@@ -5405,7 +5638,7 @@
 	(footprint "lcsc_footprints:C2913202_WIRELM-SMD_ESP32-S3-WROOM-1"
 		(layer "F.Cu")
 		(uuid "5041fdc5-a4ef-48ec-9d08-1cb0683a440c")
-		(at 221.521596 112.273146)
+		(at 221 105.9375)
 		(property "Reference" "U6"
 			(at 0 -12.895 0)
 			(layer "F.SilkS")
@@ -7719,239 +7952,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-		(layer "F.Cu")
-		(uuid "5e81800e-3133-4dd4-9205-fdd1ab4fa589")
-		(at 85.946897 119.615511 -90)
-		(descr "Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44)")
-		(tags "Bosch LGA NoLead")
-		(property "Reference" "U5"
-			(at -2.671548 -0.042576 180)
-			(layer "F.SilkS")
-			(uuid "16b34239-914e-4efb-a241-7c1acc0cffc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "BME680"
-			(at 0 2.45 90)
-			(layer "F.Fab")
-			(uuid "54816be3-74a8-4923-a7ae-ffa44019887d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4fc0a56a-d844-4e53-a961-112666b5fc4b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa05de72-6624-4939-91a1-46a3b769b85b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5655f446-4e9c-450c-8b34-db57d9901107")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "*LGA*3x3mm*P0.8mm*Clockwise*")
-		(path "/ea4e71d6-ece8-4370-ba29-335e9462d258")
-		(sheetname "/")
-		(sheetfile "Human_Tracker.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "1" "8" "7" "5" "4" "3" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.71 1.61)
-			(end -1.71 -1.61)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2a420356-3cc0-417d-a5df-07bacc706ddd")
-		)
-		(fp_line
-			(start 1.71 -1.61)
-			(end 1.71 1.61)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a3d828c4-d85a-464e-8b97-acee021e8060")
-		)
-		(fp_poly
-			(pts
-				(xy -1.21 -1.72) (xy -1.45 -2.05) (xy -0.97 -2.05)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "bf1db2d2-82e2-4a40-9214-41291d4a968f")
-		)
-		(fp_rect
-			(start -1.75 -1.75)
-			(end 1.75 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "27e445e6-92c9-4865-90c6-16e840273da7")
-		)
-		(fp_poly
-			(pts
-				(xy -0.75 -1.5) (xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5) (xy -1.5 -0.75)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "7a52d544-4a8f-44bb-83b5-089c001b7f16")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "9c6fd526-11f5-4c84-aae4-3b2eaa1d41af")
-			(effects
-				(font
-					(size 0.75 0.75)
-					(thickness 0.11)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.2 -1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "GND_1")
-			(pintype "power_in")
-			(uuid "0bba9c4e-449d-4180-b9a7-c775bde42195")
-		)
-		(pad "2" smd roundrect
-			(at -0.4 -1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "CSB_2")
-			(pintype "input")
-			(uuid "43cef66a-2ced-4818-a681-14eb01d1193d")
-		)
-		(pad "3" smd roundrect
-			(at 0.4 -1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/SDA")
-			(pinfunction "SDI_3")
-			(pintype "bidirectional")
-			(uuid "1a594170-09eb-4c27-b1ba-56ac4d832fc9")
-		)
-		(pad "4" smd roundrect
-			(at 1.2 -1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/SCL")
-			(pinfunction "SCK_4")
-			(pintype "input")
-			(uuid "0cd7a2c3-8f91-4dab-aabb-64b1442cc284")
-		)
-		(pad "5" smd roundrect
-			(at 1.2 1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "SDO_5")
-			(pintype "bidirectional")
-			(uuid "72266611-51a4-4835-a024-4432bdc54ab2")
-		)
-		(pad "6" smd roundrect
-			(at 0.4 1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDDIO_6")
-			(pintype "power_in")
-			(uuid "489b66d2-a8e5-4415-9bf0-5989fe81c294")
-		)
-		(pad "7" smd roundrect
-			(at -0.4 1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "GND_7")
-			(pintype "power_in")
-			(uuid "3bdafde0-6688-4991-8fdc-a2806f886603")
-		)
-		(pad "8" smd roundrect
-			(at -1.2 1.1875 270)
-			(size 0.5 0.525)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "+3.3V")
-			(pinfunction "VDD_8")
-			(pintype "power_in")
-			(uuid "cc535994-9abc-4d5d-b57b-93eb719b4bcd")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "61327613-ccbb-4b71-a97f-142ed3e736e7")
@@ -8757,7 +8757,7 @@
 	(footprint "lcsc_footprints:C1712_C0805"
 		(layer "F.Cu")
 		(uuid "687da969-38cb-4388-8a0e-0e7f81c58142")
-		(at 205.948842 99.58476)
+		(at 205.948842 98.5)
 		(descr "1uF (105) ±10% 25V")
 		(property "Reference" "C14"
 			(at 3.775694 0 0)
@@ -15037,13 +15037,13 @@
 			)
 		)
 	)
-	(footprint "lcsc_footprints:C1712_C0805"
+	(footprint "lcsc_footprints:C15850_C0805"
 		(layer "F.Cu")
 		(uuid "a9d94b71-b709-4d29-b211-9ebc832af6fd")
 		(at 153.449905 121.205868)
-		(descr "1uF (105) ±10% 25V")
+		(descr "10uF (106) ±10% 25V")
 		(property "Reference" "C17"
-			(at -3.631321 -0.066909 180)
+			(at 0 -4 0)
 			(layer "F.SilkS")
 			(uuid "6f47bdb4-2551-4c09-8d0a-b80414ec851f")
 			(effects
@@ -15053,7 +15053,7 @@
 				)
 			)
 		)
-		(property "Value" "10µ"
+		(property "Value" "10uF"
 			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "6072e729-f140-4bfd-925b-84c74a2b89b4")
@@ -15064,7 +15064,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15075,7 +15075,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF (106) ±10% 25V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15086,7 +15086,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1712"
+		(property "LCSC Part" "C15850"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15094,12 +15094,36 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be96eb1d-1186-4aad-ba30-5f715ffdb090")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
-		(path "/3b46fe7f-5b74-432c-aad9-564a2d0f9a0a")
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9ab2063-fe81-44a9-ad5a-082d3aee3fcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/28f77347-5d1c-42fd-9575-64a25c153326")
 		(sheetname "/")
 		(sheetfile "Human_Tracker.kicad_sch")
 		(units
@@ -15280,20 +15304,22 @@
 			(at -1 0)
 			(size 1.41 1.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+3.3V")
-			(pintype "passive")
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "unspecified")
 			(uuid "e75d0375-e6e1-4d5c-9fd6-5b53eaa7fc35")
 		)
 		(pad "2" smd rect
 			(at 1 0)
 			(size 1.41 1.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pintype "passive")
+			(net "+3.3V")
+			(pinfunction "2_2")
+			(pintype "unspecified")
 			(uuid "9d57d0b1-81df-48ee-8ae8-d3de80fd264e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C1712.wrl"
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C15850.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16727,7 +16753,7 @@
 	(footprint "lcsc_footprints:C17414_R0805"
 		(layer "F.Cu")
 		(uuid "cd2b009c-b376-40e8-914d-781c2192f2ff")
-		(at 205.948842 103.020743)
+		(at 204.5 101.5)
 		(descr "10KΩ (1002) ±1%")
 		(property "Reference" "R11"
 			(at 3.998415 0 0)

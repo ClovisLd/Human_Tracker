@@ -752,7 +752,7 @@
           "show": false
         }
       ],
-      "filter_string": "tp",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -800,7 +800,7 @@
         "uuid": "21992c97-7c29-4ade-9a85-42ee1fb0a3a3"
       }
     ],
-    "used_designators": "L1,WIRELM1,D1-2,#PWR1-56,USB1,TP1-25,SM1-2,U1-8,C1-18,R1-17,MK1-2,LED1,H1-5",
+    "used_designators": "L1,WIRELM1,D1-2,#PWR1-56,USB1,TP1-25,SM1-2,U1-8,C1-19,R1-17,MK1-2,LED1,H1-5",
     "variants": []
   },
   "sheets": [
